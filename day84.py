@@ -1,6 +1,6 @@
-import datetime
+from datetime import datetime
 
 str = "12-07-2022"
-format = datetime.datetime.strptime(str, "%d-%m-%Y")
-time_stamp = datetime.datetime.timestamp(format)
+fecha = datetime.strptime(str, "%d-%m-%Y")
+time_stamp = fecha.timestamp()
 print(time_stamp)
