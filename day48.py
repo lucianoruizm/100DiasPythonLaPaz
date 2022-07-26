@@ -1,5 +1,5 @@
-listNumbers = list(range(1, 6))
-for x in listNumbers:
+list_numbers = list(range(1, 6))
+for x in list_numbers:
      if x % 2 == 0:
         print(True)
      else:
