@@ -4,7 +4,7 @@ def cuentaRegresiva (numero: int):
 
 cuentaRegresiva(5)
 
-# Solución Pyhon La Paz
+# Solución Python La Paz
 def atras(num:int):
     print(num)
     num = num - 1
